@@ -1,0 +1,58 @@
+export const projects = [
+  {
+    img: "/project-images/p-1.png",
+    id: 1,
+    name: "Coachy",
+    hasCaseStudy: false,
+    dec: "Coaching Program Management Enhancement is designed to streamline and optimize the management of corporate coaching programs.",
+  },
+  {
+    img: "/project-images/p-2.png",
+    id: 2,
+    name: "Travelio",
+    hasCaseStudy: false,
+    dec: "Users can quickly personalize their trip, choose their destination, choose from a number of safe payment methods, and locate their preferred travel companies..",
+  },
+  {
+    img: "/project-images/p-3.png",
+    id: 3,
+    name: "NFT",
+    hasCaseStudy: false,
+    dec: "The project leverages blockchain technology to create a one-of-a-kind collection of digital art that is secure, authentic, and easily tradable.",
+  },
+  {
+    img: "/project-images/p-4.png",
+    id: 4,
+    name: "Tabeebi Patient",
+    hasCaseStudy: false,
+    dec: "Coaching Program Management Enhancement is designed to streamline and optimize the management of corporate coaching programs.",
+  },
+  {
+    img: "/project-images/p-5.png",
+    id: 5,
+    name: "Noqod",
+    hasCaseStudy: false,
+    dec: "NOQOD plain sails the lives through it's go cashless method enabling the users with the features and services like bill payments, money transfers, bank deposits.",
+  },
+  {
+    img: "/project-images/p-6.png",
+    id: 6,
+    name: "Noqod",
+    hasCaseStudy: false,
+    dec: "NOQOD plain sails the lives through it's go cashless method enabling the users with the features and services like bill payments, money transfers, bank deposits.",
+  },
+  {
+    img: "/project-images/p-7.png",
+    id: 7,
+    name: "Easy Booking",
+    hasCaseStudy: false,
+    dec: "Kashmir's own online service booking and delivery app, which allows you to book any service online. Book any of the  service to your home within 24 hours.",
+  },
+  {
+    img: "/project-images/p-8.png",
+    id: 8,
+    name: "Fastbeetle",
+    hasCaseStudy: false,
+    dec: "Fastbeetle work to connect the needs and requirements of both the producers as well as consumers with the acquirement in an economically effective undertaking.  ",
+  },
+];
