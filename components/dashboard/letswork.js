@@ -1,6 +1,7 @@
 import React from "react";
 import { TextHoverEffect } from "../ui/text-hover-effect";
 import { Unbounded } from "next/font/google";
+import { cal } from "@/data/links";
 
 const unbounded = Unbounded({
   subsets: ["latin"],
@@ -18,7 +19,8 @@ export default function LetsWork() {
         Let&apos;s work together
       </h1>
       <a
-        href="tel:+916005084214"
+        href={cal}
+        target="_blank"
         className="text-white border border-white rounded-full px-6 py-1 text-sm sm:text-lg transition-all hover:bg-white hover:text-black z-10"
       >
         Book a Call

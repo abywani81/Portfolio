@@ -3,9 +3,12 @@ import Image from "next/image";
 import { Unbounded } from "next/font/google";
 import { HeroHighlight } from "../ui/hero-highlight";
 import { motion } from "framer-motion";
+import { cal, resume } from "@/data/links";
+
 const unbounded = Unbounded({
   subsets: ["latin"],
 });
+
 export function HeroSection() {
   return (
     <div className="min-h-screen w-full ">
@@ -19,6 +22,7 @@ export function HeroSection() {
               priority
               width={64}
               height={64}
+              className="h-8 w-8 md:w-16 md:h-16 object-contain"
             />
           </div>
           <div className="flex  sm:flex-row items-center gap-4 sm:gap-6">
@@ -26,8 +30,9 @@ export function HeroSection() {
               initial={{ scale: 0.8, opacity: 0 }}
               animate={{ scale: 1, opacity: 1 }}
               transition={{ duration: 0.8, delay: 0.2 }}
-              className="text-white text-sm sm:text-lg hover:underline"
-              href="#"
+              className="text-white text-sm sm:text-lg hover:underline hidden md:block"
+              href={resume}
+              target="_blank"
             >
               View Resume
             </motion.a>
@@ -35,7 +40,8 @@ export function HeroSection() {
               initial={{ scale: 0.8, opacity: 0 }}
               animate={{ scale: 1, opacity: 1 }}
               transition={{ duration: 0.8, delay: 0.2 }}
-              href="tel:+916005084214"
+              href={cal}
+              target="_blank"
               className="text-white border border-white rounded-full px-6 py-1 text-sm sm:text-lg transition-all hover:bg-white hover:text-black z-10"
             >
               Book a Call
@@ -61,7 +67,7 @@ export function HeroSection() {
               Crafting Intuitive and Impactful Digital Experiences
               <motion.button
                 disabled
-                className="relative lg:px-6 lg:py-3 px-4 py-1 text-white text-sm font-semibold rounded-full overflow-hidden bg-transparent inline-block ms-3"
+                className="relative lg:px-6 lg:py-3 px-4 py-1 text-white text-sm font-semibold rounded-full overflow-hidden bg-transparent inline-block mt-2 sm:mt-0 ms-0 md:ms-3"
               >
                 <div
                   className="absolute inset-0 rounded-full p-[2px] bg-transparent"
