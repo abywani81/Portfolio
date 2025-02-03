@@ -17,7 +17,7 @@ export const logoAndAnimations = [
     img: "/logo-animation/la-3.png",
     id: 3,
     name: "AgileDock",
-    hasCaseStudy: true,
+    hasCaseStudy: false,
     dec: "animation",
   },
 ];
