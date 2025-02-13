@@ -3,14 +3,14 @@ export const projects = [
     img: "/project-images/p-1.png",
     id: 1,
     name: "Coachy",
-    hasCaseStudy: false,
+    hasCaseStudy: true,
     dec: "Coaching Program Management Enhancement is designed to streamline and optimize the management of corporate coaching programs.",
   },
   {
     img: "/project-images/p-2.png",
     id: 2,
     name: "Travelio",
-    hasCaseStudy: false,
+    hasCaseStudy: true,
     dec: "Users can quickly personalize their trip, choose their destination, choose from a number of safe payment methods, and locate their preferred travel companies..",
   },
   {
